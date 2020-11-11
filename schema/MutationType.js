@@ -18,6 +18,7 @@ const MutationType = new GraphQLObjectType({
             args: {
                 name: {type: GraphQLString},
                 author: {type: GraphQLString},
+                image:{type: GraphQLString},
                 description: {type: GraphQLString},
                 gameGroupId: {type: GraphQLID}
             },
@@ -32,6 +33,7 @@ const MutationType = new GraphQLObjectType({
                 id: {type: GraphQLID},
                 name: {type: GraphQLString},
                 author:{type: GraphQLString},
+                image:{type: GraphQLString},
                 description:{type: GraphQLString},
                 gameGroupId: {type: GraphQLID}
             },

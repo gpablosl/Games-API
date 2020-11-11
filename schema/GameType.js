@@ -10,6 +10,7 @@ const GameType = new GraphQLObjectType({
         id: {type: GraphQLID},
         name: {type: GraphQLString},
         author:{type: GraphQLString},
+        image:{type: GraphQLString},
         description:{type: GraphQLString},
         GameGroup: {
             type: GameGroupType,

@@ -5,6 +5,7 @@ const {Schema} = mongoose;
 const GameSchema = new Schema({
     name: String,
     author: String,
+    image: String,
     description: String,
     gameGroupId: String
  

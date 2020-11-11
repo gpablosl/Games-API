@@ -2,7 +2,7 @@ import express from 'express';
 import expressGraphql from 'express-graphql';
 import Schema from './schema/Schema.js';
 import mongoose from 'mongoose';
-import cors from 'cors';
+import cors from 'cors'; 
 
 const {graphqlHTTP} = expressGraphql;
 

@@ -10,6 +10,7 @@ const GameGroupType = new GraphQLObjectType({
     fields: ()=>({
         id: {type: GraphQLID},
         name: {type: GraphQLString},
+        
         games: {
             type: new GraphQLList(GameType),
             resolve(parent, args){
